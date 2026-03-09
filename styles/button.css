@@ -1,0 +1,23 @@
+.btn{
+      background-color: #11122b;
+      color:#cbcbcb;
+      font-size: 1.25em;
+      padding: 10px 25px;
+      border:  1px solid #11122b;
+      border-radius: 2px;
+      outline: none;
+      transition: 0.3s;
+
+}
+.btn:hover{
+      background-color: #3f3e3e;
+      border:  1px solid #3f3e3e;
+}
+.btn:active{
+      box-shadow:5px 5px 30px rgba(0,0,0,0.4) ;
+}
+
+.centered-btn-wrapper{
+      display: flex;
+      justify-content: center;
+}

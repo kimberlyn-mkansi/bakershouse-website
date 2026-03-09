@@ -1,0 +1,60 @@
+/*Footer styles*/
+
+.footer { 
+      height:450px;
+      background-color: #3f3e3e;
+      color: #cbcbcb;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -4px;
+}
+
+.footer> .logo-footer img{
+      width: 180px;
+      height: 100%;
+      opacity: 0.9;
+     
+}
+
+.footer > .contact-info span{
+      margin-left: 10px;
+      margin-right: 10px;
+      letter-spacing: 2px;
+      font-size: 1em;
+}
+.footer > .contact-info > .hours{
+      color: #11122b;
+      font-size: 0.8em;
+      text-transform: uppercase;
+}
+.footer > .links-wrapper {
+   margin-top: 40px;   
+   margin-bottom: 40px;
+   width: 400px;
+}
+.footer > .links-wrapper .nav-link :hover{
+      color: #11122b;
+      
+}
+.footer >.social-media{
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 300px;
+      justify-content: space-around;
+      display: flex;
+}
+.footer >.social-media a{
+      color: #cbcbcb;
+      font-size: 1.5em;
+      transition: 0.5s;
+}.footer >.social-media a:hover{
+      color: #11122b;
+      
+}
+.footer >.copyright-wrapper{
+   margin-bottom: 42px;  
+   font-size: 0.7em; 
+   color: #858585;
+}

@@ -1,0 +1,175 @@
+@media (max-width: 480px){
+
+.hero-section{
+    padding: 30px 10px;
+}
+
+.top-heading h1{
+    font-size: 2rem;
+}
+
+.bottom-heading h3{
+    font-size: 1.2rem;
+}
+
+.links-wrapper > .nav-link{
+    font-size: 1.2em;
+}
+
+.features-section > .columns-wrapper{
+    gap: 20px;
+}
+
+}
+
+@media (max-width: 615px) {
+.navigation-wrapper{
+      flex-direction: column;
+      height: 100%;
+}
+ .navigation-wrapper > .left-column{
+      order: 2;
+      margin-top: 10px;
+      margin-bottom: 15px;
+ }
+ .navigation-wrapper > .center-column{
+      order:1;
+      width: 100%;
+ }
+
+ .navigation-wrapper > .right-column{
+      order: 3;
+      margin-top: 15px;
+     
+ }
+ .links-wrapper{
+     flex-direction: column;
+     margin-bottom: 20px;
+     
+ }
+ .links-wrapper > .nav-link{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 1.5em;
+     width: 100%;
+     
+ }
+ .footer .links-wrapper{
+     display:  none;
+ }
+.hero-section{
+     padding: 50px 10px;
+}
+.features-section {
+     height: 100%;
+ }
+.features-section >.columns-wrapper{
+     width: 100%;
+     flex-direction: column;
+}
+
+.footer{
+     height: 100%;
+}
+.skewed-header > .skewed-header-wrapper >.skewed-header-content{
+     flex-direction: column;
+}
+.skewed-header > .header-bg{
+     background-size: 550px;
+}
+.page-container{
+     padding-left:21px;
+     padding-right: 21px;
+     
+}
+
+.content-wrapper > #chef{
+     margin: 0px 0px 25px 0px !important;
+     width: 100% !important;
+}
+.square{
+     grid-template-columns: 1fr !important;
+}
+.square> .square-text-wrapper {
+order: 1;
+
+}
+.square> .img-wrapper{
+     order: 2;
+}
+.contact-grid-wrapper{
+     width: 100%;
+     grid-template-columns: 1fr;
+     grid-gap: 10px;
+}
+.form input{
+     padding: 1.5rem 0rem;
+}
+
+.form textarea{
+     padding: 1.5rem 0rem;
+}
+
+
+.hamburger{
+display:block;
+text-align:center;
+margin-bottom:15px;
+}
+
+.hamburger + .links-wrapper{
+display:none;
+flex-direction:column;
+width:100%;
+}
+
+#menu-toggle:checked + .hamburger + .links-wrapper{
+display:flex;
+}
+}
+
+@media (min-width: 616px) and (max-width: 1024px){
+
+.page-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navigation-wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero-section{
+    padding: 80px 40px;
+}
+
+.features-section{
+    padding: 40px;
+}
+.features-section > .columns-wrapper{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+   
+}
+.skewed-header .links-wrapper{
+    padding: 0 30px;
+}
+}
+
+@media (min-width: 1800px){
+
+.page-container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.hero-section{
+    padding: 150px 200px;
+}
+
+.features-section{
+    padding: 80px;
+}
+
+}

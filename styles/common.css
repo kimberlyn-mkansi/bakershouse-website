@@ -1,0 +1,14 @@
+/*common styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sacramento&display=swap');
+*{
+        font-family:   "Quicksand", sans-serif;
+        
+}
+body{
+      margin:0px;
+    
+}
+
+
+

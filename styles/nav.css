@@ -1,0 +1,120 @@
+/*common nav styles*/
+.navigation-wrapper{
+      height: 190px;
+      background-color: #3f3e3e;
+      color: #cbcbcb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 100px;
+      
+
+     
+}
+
+/*left column styles*/
+.navigation-wrapper > .left-column{
+      display:flex;
+      align-items: center;
+}
+.navigation-wrapper > .left-column > .icon{
+      margin-right: 15px;
+
+}
+.navigation-wrapper > .left-column > .icon i{
+      font-size: 2em;
+
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper{
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+   
+}
+.navigation-wrapper > .contact-hours-wrapper > .hours{
+     color: #cbcbcb ;
+      font-size: 0.8em;
+}
+
+#menu-toggle{
+display:none;
+}
+
+/* hiding my hamburger on desktop */
+.hamburger{
+display:none;
+font-size:2rem;
+cursor:pointer;
+margin-top:10px;
+}
+
+
+.navigation-wrapper > .center-column >.banner-image {
+      display: flex;
+      justify-content: center;
+}
+.navigation-wrapper > .center-column >.banner-image img{
+      width: 216px;
+      height: 100%;
+}
+.navigation-wrapper > .center-column {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 42px;
+      width: 500px;
+}
+.links-wrapper{
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+
+}
+.links-wrapper  > .nav-link a{
+text-decoration: none;
+color: #cbcbcb ;
+transition: 0.5s;
+}
+.links-wrapper  > .nav-link {
+width: 70px;
+text-align: center;
+}
+.links-wrapper  >.nav-link a:hover{
+      letter-spacing: 2px;
+}
+
+/*right column styles*/
+.navigation-wrapper > .right-column > .address-wrapper{
+    color: #cbcbcb ;   
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+      font-family: "Ubuntu Condensed", sans-serif;
+      color: #cbcbcb ;  
+} 
+
+.navigation-wrapper > .right-column{
+      display: flex;
+}
+.navigation-wrapper > .right-column  > .address-wrapper{
+      font-family:  "Ubuntu Condensed", sans-serif;
+      text-align: right;
+     
+}
+.navigation-wrapper> .right-column> .address-wrapper a{
+      text-decoration: none;
+      font-size: 0.9em;
+      transition: 0.5s;
+      color: #cbcbcb ;   
+}
+.navigation-wrapper> .right-column> .address-wrapper :hover{
+      color: #11122b;
+      
+}
+.navigation-wrapper> .right-column> .location-icon a{
+      margin-left: 15px;
+      font-size: 2em;
+      color: #cbcbcb ;  
+      transition: 0.5s;
+}
+.navigation-wrapper> .right-column> .location-icon a:hover{
+      color: #11122b;  
+}
