@@ -57,21 +57,24 @@
 .hero-section {
  background-attachment: scroll;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 15px;
   height: auto;
 }
 
 .hero-section > .top-heading h1 {
- width: auto;
+ width: fit-content;
+ max-width: 100%;
  font-size: 1.6em;
- padding: 5px 20px;
+ padding: 6x 18px;
 }
 
 .hero-section > .bottom-heading h3 {
-  width: auto;
+  width: fit-content;
+  max-width: fit-content;
   font-size: 1.2em;
-  padding: 5px 20px;
+  padding: 6px 18px;
 }
     
 .features-section {
